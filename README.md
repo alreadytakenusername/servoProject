@@ -4,8 +4,8 @@ ServoProject is a prototype Servo-based HTML Editor written in the
 [Rust](https://github.com/mozilla/rust) language. It is currently developed on
 64bit OS X, 64bit Linux, and Android.
 
-ServoProject welcomes contribution from everyone.  See
-[`CONTRIBUTING.md`](CONTRIBUTING.md) for help getting started.
+Just saying, that ServoProject will probably not go further than some concepts etc.
+First things first, I must get a new computer before doing anything with code (so it will take some time).
 
 ## Prerequisites
 

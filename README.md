@@ -1,10 +1,10 @@
-# The Servo Parallel Browser Project
+# The ServoProject HTML Editor Project
 
-Servo is a prototype web browser engine written in the
+ServoProject is a prototype Servo-based HTML Editor written in the
 [Rust](https://github.com/mozilla/rust) language. It is currently developed on
 64bit OS X, 64bit Linux, and Android.
 
-Servo welcomes contribution from everyone.  See
+ServoProject welcomes contribution from everyone.  See
 [`CONTRIBUTING.md`](CONTRIBUTING.md) for help getting started.
 
 ## Prerequisites
@@ -58,21 +58,21 @@ Pre-installed Android tools are needed. See wiki for
 
 ## The Rust compiler
 
-Servo uses a snapshot Rust compiler to build itself. This is normally a
+ServoProject uses a snapshot Rust compiler to build itself. This is normally a
 specific revision of Rust upstream, but sometimes has a backported patch or
 two. If you'd like to know the snapshot revision of Rust which we use, see
 `./rust-snapshot-hash`.
 
 ## Building
 
-Servo is built with Cargo, the Rust package manager. We also use Mozilla's
+ServoProject is built with Cargo, the Rust package manager. We also use Mozilla's
 Mach tools to orchestrate the build and other tasks.
 
 ### Normal build
 
 ``` sh
-git clone https://github.com/servo/servo
-cd servo
+git clone https://github.com/alreadytakenusername/servoProject
+cd servoProject
 ./mach build
 ./mach run tests/html/about-mozilla.html
 ```
@@ -80,8 +80,8 @@ cd servo
 ### Building for Android target
 
 ``` sh
-git clone https://github.com/servo/servo
-cd servo
+git clone https://github.com/alreadytakenusername/servoProject
+cd servoProject
 ANDROID_TOOLCHAIN=/path/to/toolchain ANDROID_NDK=/path/to/ndk PATH=$PATH:/path/to/toolchain/bin ./mach build --android
 cd ports/android
 ANDROID_SDK=/path/to/sdk make install
